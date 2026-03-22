@@ -1,0 +1,21 @@
+.Detail_container {
+    background-color: orange;
+    margin: 300px;
+    color: rgb(74, 73, 73);
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+form label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem; padding: 10px;
+}
+form input {
+    border: none;
+}
+button {
+    color: white;
+}
