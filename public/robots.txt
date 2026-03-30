@@ -1,11 +1,10 @@
 User-agent: *
 Allow: /
 
-# Private app pages (login system)
-Disallow: /dashboard
-Disallow: /tasks
-Disallow: /add-task
-Disallow: /profile
-Disallow: /settings
+# Private dashboard pages
+Disallow: /Home
+Disallow: /students
+Disallow: /courses
+Disallow: /courseDetails
 
-Sitemap: http://localhost:5173/sitemap.xml
+Sitemap: https://task-management-system-sigma-two.vercel.app//sitemap.xml

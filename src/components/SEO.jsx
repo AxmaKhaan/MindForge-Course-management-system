@@ -2,10 +2,15 @@ import { Helmet } from "react-helmet-async";
 
 export default function SEO({ title, description, url }) {
   return (
+    import { Helmet } from "react-helmet-async";
+
+export default function SEO({ title, description, url }) {
+  return (
     <Helmet>
       <title>{title}</title>
 
       <meta name="description" content={description} />
+      <meta name="keywords" content="student course manager, course planner, study planner, student dashboard" />
 
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
@@ -16,5 +21,7 @@ export default function SEO({ title, description, url }) {
 
       <link rel="canonical" href={url} />
     </Helmet>
+  );
+}
   );
 }
