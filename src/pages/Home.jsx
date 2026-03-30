@@ -1,15 +1,9 @@
 import React from "react";
 import "/src/Home.css";
 import CourseCard from "../navigation/CourseCard";
-import { Helmet } from "react-helmet-async";
 export default function Home() {
   return (
     <>
-      <SEO
-        title="Student Course Management System"
-        description="Manage your courses, track assignments, and monitor study progress in one place."
-        url="https://yourdomain.com"
-      />
       <section className="hero-section">
         <div className="container">
           <div className="box">
@@ -74,52 +68,52 @@ export default function Home() {
           <div className="contain">
             <div className="course_cards">
               <CourseCard
-                courseName="Web Development"
-                image="/web devlop.jpg"
-                alter="web development picture"
-                courseDescrip="Forme image manipulation to create stunnign visual content,unleash your creativity in the digital realm."
-
-              />
+                          courseName="Web Development"
+                          image="/web devlop.jpg"
+                          alter="web development picture"
+                          courseDescrip="Forme image manipulation to create stunnign visual content,unleash your creativity in the digital realm."
+                          
+                        />
             </div>
             <div className="course_cards">
               <CourseCard
-                courseName="Graphic designing"
-                image="/graphic designing.svg"
-                alter="web development picture"
-                courseDescrip="Forme image manipulation to create stunnign visual content,unleash your creativity in the digital realm."
-              />
+                          courseName="Graphic designing"
+                          image="/graphic designing.svg"
+                          alter="web development picture"
+                          courseDescrip="Forme image manipulation to create stunnign visual content,unleash your creativity in the digital realm."
+                        />
             </div>
             <div className="course_cards">
               <CourseCard
-                courseName="Digital Media Marketing"
-                image="/digi media merketing.svg"
-                alter="web development picture"
-                courseDescrip="Forme image manipulation to create stunnign visual content,unleash your creativity in the digital realm."
-              />
+                          courseName="Digital Media Marketing"
+                          image="/digi media merketing.svg"
+                          alter="web development picture"
+                          courseDescrip="Forme image manipulation to create stunnign visual content,unleash your creativity in the digital realm."
+                        />
             </div>
             <div className="course_cards">
               <CourseCard
-                courseName="AI Web generating"
-                image="/ai website generating.svg"
-                alter="web development picture"
-                courseDescrip="Forme image manipulation to create stunnign visual content,unleash your creativity in the digital realm."
-              />
+                          courseName="AI Web generating"
+                          image="/ai website generating.svg"
+                          alter="web development picture"
+                          courseDescrip="Forme image manipulation to create stunnign visual content,unleash your creativity in the digital realm."
+                        />
             </div>
             <div className="course_cards">
               <CourseCard
-                courseName="Basic Computer"
-                image="/basic computer.svg"
-                alter="web development picture"
-                courseDescrip="Forme image manipulation to create stunnign visual content,unleash your creativity in the digital realm."
-              />
+                          courseName="Basic Computer"
+                          image="/basic computer.svg"
+                          alter="web development picture"
+                          courseDescrip="Forme image manipulation to create stunnign visual content,unleash your creativity in the digital realm."
+                        />
             </div>
             <div className="course_cards">
               <CourseCard
-                courseName="Web Designing"
-                image="/web devlop.jpg"
-                alter="web development picture"
-                courseDescrip="Forme image manipulation to create stunnign visual content,unleash your creativity in the digital realm."
-              />
+                          courseName="Web Designing"
+                          image="/web devlop.jpg"
+                          alter="web development picture"
+                          courseDescrip="Forme image manipulation to create stunnign visual content,unleash your creativity in the digital realm."
+                        />
             </div>
           </div>
         </section>

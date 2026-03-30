@@ -8,11 +8,6 @@ export default function Courses() {
   };
   return (
     <>
-      <SEO
-        title="Manage Your Courses"
-        description="Organize subjects, assignments, and deadlines easily."
-        url="https://yourdomain.com/courses"
-      />
       <section className="main-sect-2">
         <div className="container">
           <h1>Enrolled Students</h1>
