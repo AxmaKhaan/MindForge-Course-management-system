@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Private app pages (login system)
+Disallow: /dashboard
+Disallow: /tasks
+Disallow: /add-task
+Disallow: /profile
+Disallow: /settings
+
+Sitemap: http://localhost:5173/sitemap.xml

@@ -1,9 +1,15 @@
 import React from "react";
 import "/src/Home.css";
 import CourseCard from "../navigation/CourseCard";
+import { Helmet } from "react-helmet-async";
 export default function Home() {
   return (
     <>
+    <SEO
+        title="Student Task Management System"
+        description="Manage assignments, tasks, and deadlines easily."
+        url="https://yourdomain.com"
+      />
       <section className="hero-section">
         <div className="container">
           <div className="box">

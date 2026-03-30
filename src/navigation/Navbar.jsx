@@ -17,7 +17,7 @@ export default function Navbar() {
     
     <header>
       <nav className={buttonClasses} >
-      <a onClick={closeSidebar}><img src="cross.png" alt=""/></a>
+      <button onClick={closeSidebar}><img src="cross.png" alt=""/></button>
         <div className="links1">
         
         <Link to='/' className="nav-link">Home</Link>
@@ -37,7 +37,7 @@ export default function Navbar() {
         <Link to='/courseDetails' className="nav-link">student detail</Link>
         
         </div>
-        <a onClick={handleSidebar} ><img src="menu-burger.png" alt=""/></a>
+        <button onClick={handleSidebar} ><img src="menu-burger.png" alt=""/></button>
       </nav>
     </header>
 

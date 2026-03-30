@@ -4,6 +4,7 @@
 // import React from 'react'
 // import './App.css';
 import { Routes, Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -16,6 +17,7 @@ import Footer from "./navigation/Footer";
 function App() {
   return (
     <>
+    <HelmetProvider>
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home />} />
@@ -26,6 +28,7 @@ function App() {
       <Route path="/courseDetails" element={<CourseDetails/>}/>
     </Routes>
     <Footer/>
+    </HelmetProvider>
     </>
   );
 }
