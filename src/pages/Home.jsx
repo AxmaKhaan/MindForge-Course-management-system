@@ -123,7 +123,7 @@ export default function Home() {
           <div className="contt">
             <h2>Supercharge Your Career Potential</h2>
             <p>
-              At Arfa Karim Technology Incubator, we're committed to empowering
+              At MindForge, we're committed to empowering
               your career journey. Our programs equip you with the skills that
               today's job market craves. Whether you're starting or advancing,
               AKTI's programs are your direct path to career success.
