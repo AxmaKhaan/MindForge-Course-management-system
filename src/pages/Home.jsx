@@ -8,7 +8,7 @@ export default function Home() {
         <div className="container">
           <div className="box">
             <h2>Welcome to Student Course Management System</h2>
-            <h1>Arfa Kareem Technology Incubator</h1>
+            <h1>MINDFORGE</h1>
             <p>
               This is a student course management system where you can manage
               your courses and students.
@@ -26,7 +26,7 @@ export default function Home() {
             <div className="cont cont-1">
               <h3>Unlock your Potential</h3>
               <p>
-                Arfa Karim Technology Incubator (AKTI) is more than an
+                MINDFORGE (MF) is more than an
                 incubator. it's a launchpad for your tech career. We bridge the
                 gap between academic knowledge and real-world success, offering
                 a dynamic blend of education, incubation, and opportunities for
@@ -130,7 +130,7 @@ export default function Home() {
             </p>
             <span>
               <button>How to Apply</button>
-              <button>More About AKTI</button>
+              <button>More About MINDFORGE</button>
             </span>
           </div>
         </section>
