@@ -44,6 +44,9 @@ header .navbar {
     width: 90%;
     padding: 13px;
 }
+header .navbar button {
+    display: none;
+}
 header nav .links {
     display: flex;
     justify-content: center;
