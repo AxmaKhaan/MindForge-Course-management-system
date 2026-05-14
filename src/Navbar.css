@@ -72,4 +72,8 @@ header nav .logo h1 {
     header .navbar .links .nav-link {
         display: none;
     }
+    header .navbar button {
+    display: flex;
+    align-items: flex-start;
+}
 }

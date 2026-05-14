@@ -14,7 +14,6 @@ export default function Navbar() {
     }
   return (
     <>
-    
     <header>
       <nav className={buttonClasses} >
       <button onClick={closeSidebar}><img src="cross.png" alt=""/></button>
